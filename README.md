@@ -4,7 +4,7 @@ This repo contains two main scripts:
 Functions: load_series, run_grid, train_final
 ### run_hourly.py
 Small runner that loads data from Excel, does a tiny grid search, then trains and saves outputs.
-### ile: lstm_.py
+### File: lstm_.py
 What it does
 
 Builds a 2-layer LSTM and trains with MSE.
