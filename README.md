@@ -1,11 +1,10 @@
 # LSTM_MSc_Thesis
 This repo contains two main scripts:
-# lstm.py -> python script version of the initial notebook
-Simple Keras progress bar (verbose=1)
+### lstm.py -> python script version of the initial notebook
 Functions: load_series, run_grid, train_final
-# run_hourly.py
+### run_hourly.py
 Small runner that loads data from Excel, does a tiny grid search, then trains and saves outputs.
-# ile: lstm_.py
+### ile: lstm_.py
 What it does
 
 Builds a 2-layer LSTM and trains with MSE.
@@ -14,7 +13,7 @@ model.keras – trained Keras model
 scaler.joblib – fitted MinMaxScaler
 predictions.csv – date, y_true, y_pred
 predictions.png – quick plot
-# File: run_hourly.py
+### File: run_hourly.py
 Usage
 python run_hourly.py 
 
