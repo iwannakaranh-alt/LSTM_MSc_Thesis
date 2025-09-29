@@ -19,22 +19,14 @@ Arguments
 
 --input (path): Excel file
 
---sheet (str): worksheet name (e.g., H28)
-
---date-col (str): datetime column (e.g., Timestamp)
-
---target-col (str): numeric target column (e.g., H28)
-
+--sheet (str): worksheet name 
+--date-col (str): datetime column
+--target-col (str): numeric target column 
 --out-dir (path): output folder
-
---lookbacks (csv/space list): e.g., "48,72,96" or "720"
-
---train-size (float 0–1): e.g., 0.8
-
+--lookbacks 
+--train-size (float 0–1)
 --epochs (int)
-
 --batch (int)
-
 --title (str): plot title
 
 What it does
