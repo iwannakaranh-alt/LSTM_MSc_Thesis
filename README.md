@@ -5,8 +5,6 @@ Functions: load_series, run_grid, train_final
 ### run_hourly.py
 Small runner that loads data from Excel, does a tiny grid search, then trains and saves outputs.
 ### File: lstm_.py
-What it does
-
 Builds a 2-layer LSTM and trains with MSE.
 Outputs:
 model.keras – trained Keras model
